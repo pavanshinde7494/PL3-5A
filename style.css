@@ -1,0 +1,76 @@
+body {
+    position: relative;
+    margin: 0 5% 0 5%;
+    background-color: #e4e3e3;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.main {
+    width: 100%;
+    height: 70%;
+    opacity: .75;
+}
+
+
+.title {
+    
+}
+
+.heading {
+    position: relative;
+    bottom: 224px;
+    text-align: center;
+    font-size: 110%;
+    background-color: #84a9ac;
+    z-index: -1;
+    height: 204px;
+    padding-top: 20px;
+}
+
+.logo1 {
+
+}
+
+.logo2 {
+    position: relative;
+    left: 1108px;
+    bottom: 418px;
+}
+
+.topnav {
+    position: relative;
+    bottom: 405px;
+    background-color: #204051;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: #204051;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #01a9b4;
+    color: white;
+  }
+
+  .aboutus, .contact .faculties{
+      position: relative;
+      bottom: 100px;
+      left: 50px;
+      width: 90%;
+  }
+  .faculties{
+      left : 100px
+  }
